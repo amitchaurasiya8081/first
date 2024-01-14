@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+main{
+    background: crimson;
+    border: 2px solid rgb(244, 117, 142);
+    padding: 2vh 5vw;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 10px rgb(47, 13, 197)) drop-shadow(-20px -20px 20px rgb(99, 228, 34)) drop-shadow(30px 30px 50px aqua) drop-shadow(-30px -30px 50px aqua);
+    margin: 5vh 5vw;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: rgb(216, 200, 15);
+        font-size: 4rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+form{
+    padding: 5vh 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 0;
+    .col1,.col2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        input,select,textarea{
+            border-radius: 10px;
+            padding: 1vh;
+            background: rgba(255, 255, 255, 0.361);
+            border: none;
+            outline: none;
+            color: white;
+            width: 15vw;
+            font-size: 1.4rem;
+            border: 1px solid transparent;
+        }
+        input:hover,input:focus,select:focus,select:hover,textarea:focus,textarea:hover{
+            border: 1px solid white;
+            box-shadow: 0px 0px 20px white;
+            background: transparent;
+        }
+        .label{
+            font-size: 1.4rem;
+            color: aliceblue;
+            padding-right: 5px;
+            width: 8vw;
+        }
+        
+    }
+    
+}
+.col1{
+    margin-right: 2vw;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+::option{
+    font-size: 1.4rem;
+    background-color: black;
+}
+select{
+    color: white;
+  }
+  select option { color: black; 
+background-color: red;}
+  select option:first-child{
+    color: green;
+  }
+  .add {
+    font-size: 1.4rem;
+    color: aliceblue;
+    width: 15vw;
+    padding: 1vh;
+  }
+  
